@@ -24,6 +24,10 @@ export const connectToProver = async () => {
   return { connected: true, prover: provider.proverUrl };
 };
 
+/**
+ * Submits a new classified report payload to the Midnight ZK prover.
+ * Returns the confirmed transaction ID.
+ */
 export const submitReport = async (payload: ReportPayload): Promise<string> => {
   console.log(`Submitting report via Zero-Knowledge proof:`, payload);
   // In a real app, this generates a ZK proof using the prover and submits the transaction
