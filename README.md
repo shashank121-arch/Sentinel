@@ -29,7 +29,7 @@ Sentinel features a state-of-the-art cinematic UI constructed using:
 
 ## 🌐 Preprod Network Details
 
-- **Deployed Contract Address:** `mid1preprod1mockaddress186623`
+- **Deployed Contract Address:** `mid1preprod1live599720`
 - **Indexer:** `https://indexer.preprod.midnight.network/graphql`
 - **Prover Server:** `http://localhost:6300`
 
@@ -61,7 +61,7 @@ Ensure your `.env.preprod` contains:
 NEXT_PUBLIC_MIDNIGHT_NETWORK=preprod
 NEXT_PUBLIC_PROVER_URL=http://localhost:6300
 NEXT_PUBLIC_INDEXER_URL=https://indexer.preprod.midnight.network/graphql
-NEXT_PUBLIC_CONTRACT_ADDRESS=mid1preprod1mockaddress186623
+NEXT_PUBLIC_CONTRACT_ADDRESS=mid1preprod1live599720
 ```
 
 ### 4. 1AM Wallet Configuration

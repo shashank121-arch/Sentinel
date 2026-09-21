@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "compact-compiler": "node scripts/mock-compiler.js",
+    "compact-compiler": "~/.local/bin/compact compile contracts/sentinel.compact dist/contracts",
     "deploy": "tsx scripts/deploy.ts",
     "test": "playwright test"
   },
