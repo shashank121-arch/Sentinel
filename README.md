@@ -101,3 +101,9 @@ This repository is configured with a GitHub Actions pipeline (`.github/workflows
 - Lints the TypeScript configurations.
 - Compiles the ZK proof artifacts.
 It executes securely on every push and pull request to the `main` branch.
+
+### 6. Automated Testing
+Sentinel includes a Playwright test suite to simulate the e2e flow.
+```sh
+npx playwright test
+```
