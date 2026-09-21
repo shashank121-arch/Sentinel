@@ -11,6 +11,9 @@ declare global {
   }
 }
 
+/**
+ * Custom hook to interface with the 1AM Wallet DApp Connector API.
+ */
 export const useMidnightWallet = () => {
   const [isConnected, setIsConnected] = useState<boolean>(false);
   const [walletAddress, setWalletAddress] = useState<string | null>(null);
